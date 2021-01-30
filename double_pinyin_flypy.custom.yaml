@@ -1,0 +1,20 @@
+patch:
+  translator/dictionary: sougou
+  # reset 0 和 1 在两个方案之间选择
+  switches:
+    - name: ascii_mode
+      reset: 1
+      states: [ 中文, 西文 ]
+    - name: full_shape
+      states: [ 半角, 全角 ]
+    - name: simplification
+      reset: 1
+      states: [ 漢字, 汉字 ]
+    - name: ascii_punct
+      states: [ 。，, ．， ]
+__patch:
+# Rx: emoji:customize:schema=double_pinyin_flypy {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }
+#
