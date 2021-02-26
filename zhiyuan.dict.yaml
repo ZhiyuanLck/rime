@@ -1,0 +1,15 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: zhiyuan
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+  - pinyin_simp
+  - zhiyuan.user
+  - zhiyuan.custom
+  - zhiyuan.name
+  - zhiyuan.en
+...

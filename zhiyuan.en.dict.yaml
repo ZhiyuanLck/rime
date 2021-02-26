@@ -1,0 +1,11 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: zhiyuan.en
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+李昌锴	lck

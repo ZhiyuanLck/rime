@@ -1,0 +1,15 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: zhiyuan.name
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: true
+...
+
+李昌锴	li chang kai	1
+魏蒋侨	wei jiang qiao	1
+夏威	xia wei	1
+李建桥	li jian qiao	1
+周永丽	zhou yong li	1

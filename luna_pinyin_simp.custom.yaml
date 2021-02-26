@@ -1,0 +1,35 @@
+patch:
+  translator/dictionary: zhiyuan
+  # recognizer/import_preset: symbols.custom
+  # recognizer/patterns/punct: "^i([A-Z|a-z]*|[0-9]|10)$"
+  punctuator/half_shape:
+    '<' : 《
+    '>' : 》
+    # '/' : '/'
+    '|' : ['|', ・, ·]
+    '`' : '`'
+    '~' : [ '~', ～, ˜, ˷]
+    '@' : '@'
+    '#' : '#'
+    '%' : '%'
+    '$' : '$'
+    '^' : { commit: …… }
+    '&' : '&'
+    '*' : '*'
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : '['
+    ']' : ']'
+    '{' : '{'
+    '}' : '}'
+  punctuator/symbols:
+    '/lck' : '李昌锴'
+__patch:
+# Rx: emoji:customize:schema=pinyin_simp {
+  - patch/+:
+      __include: emoji_suggestion:/patch
+# }

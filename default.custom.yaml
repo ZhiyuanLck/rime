@@ -1,7 +1,7 @@
 patch:
   schema_list:
-    - schema: double_pinyin_flypy
     - schema: luna_pinyin_simp
+    - schema: double_pinyin_flypy
   ascii_composer/good_old_caps_lock: true
   # inline_ascii 在输入法的临时西文编辑区内输入子母、数字、符号、空格等，回车上屏后自动复位到中文
   # commit_text 已输入的候选文字上屏并切换至西文输入模式
@@ -13,3 +13,4 @@ patch:
     Shift_R: inline_ascii
     Control_L: noop
     Control_R: noop
+  menu/page_size: 9
